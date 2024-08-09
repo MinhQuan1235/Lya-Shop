@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+
+    "bq bq bq bq";
+}
+.item1{
+    padding-left: 10px;
+}
+.ttin{
+    
+    padding-bottom: 70px;
+    padding-top: 25px;
+    color: black;
+}
+.tta{
+    text-decoration: none;
+    color: black;
+}
+.tta:hover{
+    opacity: 0.6;
+}
+.item{
+    display: grid;
+    background-color:#ECECED ;
+   
+    height: 165px;
+}
+.item5 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    grid-area: bq;
+    grid-row: span 2; /* Điều này sẽ mở rộng item5 qua 2 dòng */
+}
+.icon-footer{
+    padding-left: 7px;
+    padding-right: 6px;
+}

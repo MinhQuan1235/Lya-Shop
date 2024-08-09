@@ -1,0 +1,116 @@
+.formdangnhap {
+    width: calc(100% - 1px);
+    height: 75vh;
+    margin: 0 auto;
+    background: #fff;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.logo-icon1{
+    padding: 30px;
+    font-size: 60px;
+    color: black ;
+}
+.fromdangky {
+    width: calc(100% - 1px);
+    height: 75vh;
+    margin: 0 auto;
+    background: #fff;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-container a {
+    
+    padding-left: 2px;
+    margin-left:0 ;
+    margin-right: 0;
+    color: black;
+}
+.button-container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    height: 45px;
+    width: 400px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.dnbt {
+    margin-left: 0;
+    margin-right: 0;
+    height: 45px;
+    width: 400px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.dnbt:hover{
+    background-color: black;
+}
+
+.fromdangky h1 {
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input input,
+.input textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.btndangky {
+    padding-left: 135px;
+    display: flex;
+    justify-content: center;
+}
+
+.btndangky button {
+    height: 45px;
+    width: 150px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btndangky button:hover{
+    background-color: black;
+}
+
+.btndangky button:last-child {
+    margin-right: 0;
+}

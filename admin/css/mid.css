@@ -1,0 +1,236 @@
+/* table{
+    background-color: aliceblue;
+    width: 95%;
+    border-collapse: collapse;
+}
+table tr,table td{
+    border: 1px solid rgb(137, 137, 137);
+}
+.tieude{
+    white-space: nowrap;
+    background-color:rgb(0, 74, 138);
+    color: white;
+}
+.so{
+	padding: 0px 3px;
+}
+tbdonhang
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+.dashboad{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icon-dh{
+    font-size: 35px;
+    padding: 5px;
+}
+.thongtin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 250px;
+   height: 170px;
+   
+    
+}
+.tieude{
+    white-space: nowrap;
+}
+.so{
+	padding: 0px 3px;
+}
+#tbdonhang
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #d7392b;
+  }
+  
+#tbhotro
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+#tbhotro td:last-child{
+    text-align: center;
+    border: none;
+    border: 1px solid #ddd;
+    
+
+
+    
+}
+#tbhotro td:not(:last-child) {
+    
+    text-align: center;
+
+}
+.thembtn{ 
+    background-color: #4CAF50; /* Màu nền của nút */
+    color: white; /* Màu chữ của nút */
+    padding: 10px 20px; /* Kích thước của nút */
+    border: none; /* Loại bỏ viền */
+    border-radius: 5px; /* Bo góc của nút */
+    cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua nút */
+    font-size: 16px; /* Kích thước chữ */
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    margin:30px  ;
+}
+.thembtn:hover{
+    background-color: #45a049;
+}
+
+.deletebtn{
+    background-color: #e74c3c;
+    color: white; /* Màu chữ của nút */
+    padding: 10px 20px; /* Kích thước của nút */
+    border: none; /* Loại bỏ viền */
+    border-radius: 5px; /* Bo góc của nút */
+    cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua nút */
+    font-size: 16px; /* Kích thước chữ */
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    margin: 30px 30px 30px 0px;
+}
+
+.deletebtn:hover {
+    opacity: 1;
+  
+    cursor: pointer;
+  }
+#tbsp td:last-child{
+    text-align: center;
+    border: none;
+    border: 1px solid #ddd;
+    
+}
+#tbsp td:not(:last-child) {
+    
+    text-align: center;
+
+}
+
+
+
+#tbhotro tr{
+    height: 40px;
+}
+#tbdonhang tr{
+    height: 40px;
+}
+
+
+#tbsp
+{
+    margin-top: 10px;
+}
+#phantrang_sp{
+    margin-bottom: 10px;
+}
+.content22{
+    min-height: 100%;
+}
+.icon-suaxoa{
+    
+    color: black;
+    
+}
+.chitiet-icon{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1865B2;
+}
+.chitiet-icon:hover{
+    font-size: 16px ;
+    
+}
+
+.icon-suaxoa1{
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.icon-sua1{
+    padding-right   : 5px;
+    padding-left   : 5px;
+    font-size: 20px;
+}
+.icon-xoa1{
+    padding-left   : 5px;
+    padding-right   : 5px;
+    font-size: 20px;
+
+}
+.icon-sua1:hover{
+  
+color: #51BC56;
+
+
+}
+.icon-xoa1:hover{
+
+    color: #C24537;
+
+}
+.inputthaydoi{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    text-align: left;
+    text-decoration: none;
+  
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  
+    background-color: #fff;
+    
+    border-radius: 5px;
+}
+.label-thaydoi{
+    margin-right: 23px;
+}

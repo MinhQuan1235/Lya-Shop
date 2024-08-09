@@ -1,0 +1,165 @@
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+  
+  th, td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    border-radius: 2px;
+    opacity: 0.95;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+button:hover {
+  opacity: 1;
+
+  cursor: pointer;
+}
+  .btnthanhtoan{
+    background-color: #61BB24;
+    border-radius: 2px;
+    height: 40px;
+    opacity: 0.95;
+    color: white;
+    border: none;
+    width: 105px;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+   .checkbox1:hover{
+    cursor: pointer;
+    
+  }
+  #selecctall:hover{
+    cursor: pointer;
+
+  }
+  .licheckbox{
+    list-style: none;
+  }
+  
+  .tenspgiohang{
+    display: flex;
+    align-items: center;
+  }
+  .agiohang {
+   color: black;
+   text-decoration: none;
+   padding-left: 10px;
+  }
+  .input-tsxoa{
+    width: 40px;	
+    height: 28px;
+    border: 0.5px solid;
+    border-radius: 5px;
+	text-align: center;
+	padding-right: 5px;
+}
+.dia-chi-nhan-hang {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.dia-chi-nhan-hang h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dia-chi-nhan-hang p {
+  margin-bottom: 5px;
+}
+
+.dia-chi-nhan-hang .ten-nguoi-nhan {
+  font-weight: bold;
+}
+
+.dia-chi-nhan-hang .dia-chi {
+  font-style: italic;
+}
+
+.dia-chi-nhan-hang .thay-doi {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  float: right;
+}
+
+.dia-chi-nhan-hang .thay-doi:hover {
+  text-decoration: underline;
+}
+.select-css {
+	height: 35px;
+	font-size: 1rem;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: #444;
+	line-height: 1.3;
+	padding: .6em 1.4em .5em .8em;
+	width: 350px;
+	box-sizing: border-box;
+	margin: 0;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	border-radius: .5em;
+	/* background-position: right .7em top 50%, 0 0; */
+	
+}
+
+.select-css:hover {
+	border-color: #888;
+  cursor: pointer;
+
+}
+.select-css:focus {
+  cursor: pointer;
+	border-color: #aaa;
+	/* box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7); */
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222; 
+	outline: none;
+}
+.select-css option {
+	font-weight:normal;
+}
+.inputthaydoi{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+  text-align: left;
+  text-decoration: none;
+
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+
+  background-color: #fff;
+  
+  border-radius: 5px;
+}
+.label-thaydoi{
+  margin-right: 39px;
+}
+.label-thaydoi1{
+  margin-right: 58px;
+}

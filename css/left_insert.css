@@ -1,0 +1,128 @@
+#danhmuc {
+    background-color:#4D5452;
+    height: 100%;
+    color:#FFFEFE;
+   
+}
+.dm{
+    height: 100%;
+}
+.logo{
+   
+    text-align: center;
+   
+}
+.logo-icon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 75px;
+    margin: auto;
+   
+}
+.icon-cart{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.icon-cart:hover{
+    color: black;
+}
+.dangnhapdangki{
+    text-align: center;
+
+}
+.dangnhapdangki a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    
+}
+.dangnhapdangki a:hover {
+    color: black;
+}
+.search-container {
+    display: grid;
+    
+    text-align: center;
+    margin-top: 20px;
+    padding-left:  15px ;
+    padding-right: 15px;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .search-input {
+    position: relative;
+    padding-left: 15px;
+    height: 42px;
+    width: 240px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-right: 5px;
+  }
+.button1{
+    
+}
+  .search-icon{
+    position: absolute;
+    margin-left: 95px;
+    margin-top: -30px;
+    color: black;
+  }
+#danhmucpk {
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+a {
+    color: #FFFEFE ;
+   
+    white-space: nowrap;
+}
+.danhmuc{
+    padding-top: 30px;
+   
+}
+.list { 
+    font-size: 18px;
+    padding: 15px 15px;
+    word-spacing: 3px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.list a{
+    text-decoration: none;
+
+}
+.list a:hover {
+	color:black;
+}
+#dadangnhap{
+    padding-top: 12px;
+    text-align: center;
+}
+#logoutbt{
+    padding-top: 8px;
+    
+}
+#logoutbt a{
+    
+    text-decoration: none;
+}
+#logoutbt a:hover{
+    color: black;
+}
+.searchbt{
+    width: 75%;
+    height: 30px;
+    margin-top: 3px;
+    padding-top: 3px;
+    border-radius: 15px;
+    background-color: rgb(0, 255, 0);
+}
+.searchbt:hover{
+    background-color: black;
+}
+.iconsearch{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,66 @@
+.chinh_sach{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-chinhsach {
+    padding-right: 5px;
+
+}
+.chinhsach_s {
+    display: flex;
+    align-items: center;
+font-size: 1.1rem;
+list-style: none;
+padding: 30px 25px 30px 25px ;
+
+}
+#khuyenmaitb{
+    border-collapse: collapse;
+    width: 95%;
+    margin-top: 20px;
+}
+
+#khuyenmaitb tr,#khuyenmaitb td{
+    border: 1px solid black;
+}
+#khuyenmaitb a {
+    text-decoration: none;
+}
+.khuyenmai{
+    margin-bottom: 20px;
+}
+
+#xoatoanbo{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+#xoatoanbo button{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#xoatoanbo button:hover{
+    color: rgb(255, 255, 255);
+    border: 2px solid orange;
+}
+#tieptucmuahang a{
+    padding: 5px;
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 10px;
+}
+#tieptucmuahang a:hover{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(29, 0, 252);
+}
+#tieptucmuahang{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#tbttkh{
+    width: 95%;
+}

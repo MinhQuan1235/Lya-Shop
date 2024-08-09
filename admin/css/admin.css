@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Thêm box-sizing để tính cả border và padding vào chiều rộng và chiều cao */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #F5F5F5;
+  
+}
+/* .container {
+  flex: 1;
+  display: flex;
+} */
+
+
+#left {
+  
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  background-color: white;
+}
+
+
+
+#mid {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    /* flex: 1; */
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.quanly h3{
+  font-size: 30px;
+}

@@ -1,0 +1,21 @@
+.chinh_sach{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-chinhsach {
+    padding-right: 5px;
+
+}
+.chinhsach_s {
+    display: flex;
+    align-items: center;
+font-size: 1.1rem;
+list-style: none;
+padding: 30px 25px 30px 25px ;
+
+}
+.img{
+    width: 100%;
+    height: 80%;
+    background-color: black;
+}

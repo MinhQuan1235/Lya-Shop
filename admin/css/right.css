@@ -1,0 +1,20 @@
+#tk {
+    background-color: #4D5452;
+    /* border-radius: 10px; */
+    min-height: 100%;
+    font-size: 20px;
+    color: white;
+    
+    font-weight: 300;
+}
+
+#tk a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px
+}
+#tk a:hover{
+    border: 2px solid orange;
+}
